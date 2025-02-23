@@ -1,52 +1,65 @@
-[![Build Status](http://52.51.131.86:8080/buildStatus/icon?job=com.kypnt.rec-tool.ui)](http://52.51.131.86:8080/job/com.kypnt.rec-tool.ui/)
+# Talrise
 
-# Getting Started with Create React App and Redux
+Talrise is a job-hunting and candidate-hunting platform designed for both recruiters and job seekers. Users can log in, provide their details, specify the roles they are looking for, and streamline their hiring or job-search process.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+## Features
 
-## Available Scripts
+- User authentication and profile management
+- Job seekers can specify their desired roles
+- Recruiters can find candidates based on their criteria
+- Utilizes React, Redux, and React Query for state management
+- Styled Components for custom UI styling
+- Custom hooks for reusable logic
+- AWS for cloud services and deployment
 
+## Technologies Used
 
-In the project directory, you can run:
+- **React** (Frontend framework)
+- **Redux Toolkit** (State management)
+- **React Query** (Data fetching and caching)
+- **Styled Components** (CSS-in-JS styling)
+- **Material-UI** (UI Components)
+- **Emotion** (Styling library for Material-UI)
+- **Axios** (HTTP client)
+- **Formik & Yup** (Form handling and validation)
+- **React Router DOM** (Client-side routing)
+- **React Dropzone** (File uploads)
+- **React Toastify** (Notifications)
+- **React PDF & Docx** (Document generation)
+- **Date-fns, Moment.js & Day.js** (Date management)
+- **Lodash** (Utility functions)
+- **Redux Persist** (State persistence)
+- **UUID & Nanoid** (Unique ID generation)
+- **File Saver, HTML2Canvas & jsPDF** (File generation and manipulation)
+- **Prettier, ESLint, and Lint-Staged** (Code formatting and linting)
+- **AWS** (Cloud hosting & services)
 
-### `npm start`
-npm
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```sh
+# Clone the repository
+git clone https://github.com/adam-alagoz/talrise.git
+cd talrise
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Install dependencies
+yarn install
 
-### `npm test`
+# Start the development server
+yarn start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deployment
 
-### `npm run build `
+The application is deployed on AWS.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Feel free to fork the repository and submit pull requests with improvements or bug fixes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
+This project is licensed under the MIT License.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contact
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-Deneme
+For any inquiries or feedback, please reach out via GitHub issues.

@@ -1,0 +1,18 @@
+{
+  "extends": ["stylelint-config-recommended", "stylelint-config-styled-components"],
+  "customSyntax": "postcss-styled-syntax",
+  "files": ["src/**/*.(ts|tsx)"],
+  "ignoreFiles": ["**/*.(d|test|stories).(ts|tsx)", "**/jest.setup.js"],
+  "rules": {
+    "selector-class-pattern": "^[a-z][a-zA-Z0-9]+|[A-Z][a-zA-Z0-9]+$",
+    "font-family-no-missing-generic-family-keyword": null,
+    "font-family-name-quotes": null,
+    "no-descending-specificity": null,
+    "property-no-vendor-prefix": null,
+    "color-function-notation": null,
+    "block-no-empty": null,
+    "selector-pseudo-class-no-unknown": [true, { "ignorePseudoClasses": ["export", "global"] }],
+    "property-no-unknown": [true, { "ignoreSelectors": [":export"] }],
+    "declaration-empty-line-before": "never"
+  }
+}

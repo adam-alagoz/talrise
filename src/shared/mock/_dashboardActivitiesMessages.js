@@ -1,0 +1,15 @@
+export const dashboardActivitiesMessages = [
+    { message: 'Esse dolore sit est cupidatat.', messageTime: new Date().toUTCString()},
+    { message: 'Esse dolore sit est cupidatat.', messageTime: new Date().toUTCString()},
+    { message: 'Esse dolore sit est cupidatat.', messageTime: new Date().toUTCString()},
+    { message: 'Esse dolore sit est cupidatat.', messageTime: new Date().toUTCString()},
+    { message: 'Esse dolore sit est cupidatat.', messageTime: new Date().toUTCString()},
+    { message: 'Esse dolore sit est cupidatat.', messageTime: new Date().toUTCString()},
+    { message: 'Esse dolore sit est cupidatat.', messageTime: new Date().toUTCString()},
+    { message: 'Esse dolore sit est cupidatat.', messageTime: new Date().toUTCString()},
+    { message: 'Esse dolore sit est cupidatat.', messageTime: new Date().toUTCString()},
+    { message: 'Esse dolore sit est cupidatat.', messageTime: new Date().toUTCString()},
+    { message: 'Esse dolore sit est cupidatat.', messageTime: new Date().toUTCString()},
+    { message: 'Esse dolore sit est cupidatat.', messageTime: new Date().toUTCString()},
+    { message: 'Esse dolore sit est cupidatat.', messageTime: new Date().toUTCString()},
+  ]
